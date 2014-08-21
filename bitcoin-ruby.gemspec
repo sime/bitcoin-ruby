@@ -3,13 +3,13 @@ $:.push File.expand_path("../lib", __FILE__)
 require "bitcoin/version"
 
 Gem::Specification.new do |s|
-  s.name        = "bitcoin-ruby"
+  s.name        = "chain-bitcoin-ruby"
   s.version     = Bitcoin::VERSION
   s.authors     = ["lian"]
   s.email       = ["meta.rb@gmail.com"]
   s.homepage    = ""
-  s.summary     = %q{bitcoin utils and protocol in ruby}
-  s.description = %q{This is a ruby library for interacting with the bitcoin protocol/network}
+  s.summary     = %q{separate cut of bitcoin-ruby}
+  s.description = %q{separate cut of bitcoin-ruby}
   s.homepage    = "https://github.com/lian/bitcoin-ruby"
 
   s.rubyforge_project = "bitcoin-ruby"
